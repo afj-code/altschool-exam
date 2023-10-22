@@ -38,7 +38,7 @@ Before starting, ensure you have the following:
 - Open the `Vagrantfile` using a text editor.
 - Customize the Vagrant configuration according to your needs. In this example, two VMs (master and slave) are configured with specific settings.
 
-![Screenshot](path_to_screenshot.png)
+![Screenshot](https://github.com/afj-code/altschool-exam/blob/main/Photos/Vagrant.png)
 
 **2.2 Start VMs**
 
@@ -54,7 +54,7 @@ Before starting, ensure you have the following:
 
 - Create a deployment script (`deploy.sh`) that installs and configures various components on the master node.
 
-![Screenshot](path_to_screenshot.png)
+![Screenshot](https://github.com/afj-code/altschool-exam/blob/main/Photos/Deploy.png)
 
 **3.3 Make Script Executable**
 
@@ -80,7 +80,7 @@ Before starting, ensure you have the following:
 
 - Create an inventory file (`host-inventory`) and add the IP address of the slave node.
 
-![Screenshot](path_to_screenshot.png)
+![Screenshot](https://github.com/afj-code/altschool-exam/blob/main/Photos/Inventory%20File.png)
 
 **5.2 Test Connection**
 
@@ -90,7 +90,7 @@ Before starting, ensure you have the following:
 
 - Create an Ansible playbook (`myansible.yml`) to copy and execute the deployment script on the slave node.
 
-![Screenshot](path_to_screenshot.png)
+![Screenshot](https://github.com/afj-code/altschool-exam/blob/main/Photos/Ansible.png)
 
 **5.4 Execute Ansible Playbook**
 
